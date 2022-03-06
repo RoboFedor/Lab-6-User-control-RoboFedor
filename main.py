@@ -19,6 +19,9 @@ class MyGame(arcade.Window):
     def on_draw(self):
         arcade.start_render()
 
+    def on_update(self):
+        print("Hello")
+
 
 def main():
     window = MyGame()
